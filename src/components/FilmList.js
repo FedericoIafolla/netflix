@@ -87,7 +87,7 @@ function FilmList({ title, query }) {
   };
 
   return (
-    <div style={{ padding: '20px', backgroundColor: '#212121' }}>
+    <div style={{ padding: '20px', backgroundColor: '' }}>
       <h2 className="carousel-title">{title}</h2>
       {loading ? (
         <div className="loader-container">
