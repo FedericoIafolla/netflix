@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import CustomNavbar from './components/Navbar';
 import Footer from './components/Footer';
 import FilmList from './components/FilmList';
-import Account from './components/Account'; // Importa il componente Account
+import Account from './components/Account'; 
 
 function App() {
   return (

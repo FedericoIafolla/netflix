@@ -3,12 +3,12 @@ import Slider from 'react-slick';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import './FilmList.css'; // Importa il file CSS personalizzato
-import { ClipLoader } from 'react-spinners'; // Importa il loader
+import './FilmList.css'; 
+import { ClipLoader } from 'react-spinners'; 
 
 const API_KEY = '6953698b';
 
-// Lista di film da escludere
+
 const EXCLUDED_MOVIES = [
   'tt0073629',
   'tt14993250',

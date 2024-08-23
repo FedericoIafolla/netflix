@@ -1,15 +1,15 @@
 .slick-slide {
-    padding: 20px 20px; /* Aggiunge spazio sia sopra che sotto ogni slide */
-    overflow: hidden; /* Nasconde l'overflow durante l'ingrandimento */
-    transition: transform 0.4s ease, box-shadow 0.3s ease; /* Transizione per l'ingrandimento */
+    padding: 20px 20px; 
+    overflow: hidden; 
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
   }
   
   .slick-slide:hover {
-    transform: scale(1.13); /* Ingrandisce l'intero contenitore */
+    transform: scale(1.13); 
   }
   
   .slick-prev, .slick-next {
-    z-index: 1; /* Assicurati che i controlli siano sopra le immagini */
+    z-index: 1; 
   }
   
   .slick-prev {
@@ -22,14 +22,14 @@
   
   .slick-slide img {
     width: 100%;
-    height: 300px; /* Imposta l'altezza fissa per tutte le copertine */
-    object-fit: cover; /* Mantiene le proporzioni delle immagini */
+    height: 300px; 
+    object-fit: cover; 
     border-radius: 5px;
   }
   
   .carousel-title {
-    font-size: 1.5rem; /* Modifica la dimensione del testo come preferisci */
-    color: white; /* Assicurati che il colore sia leggibile sullo sfondo scuro */
+    font-size: 1.5rem; 
+    color: white; 
   }
   
   /* FilmList.css */
@@ -37,7 +37,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px; /* Altezza del contenitore del loader */
+    height: 300px; 
   }
   
   .error-message {

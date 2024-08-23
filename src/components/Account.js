@@ -1,14 +1,14 @@
 import React from 'react';
-import './Account.css'; // Importa il file CSS per lo stile della pagina
-import { Dropdown } from 'react-bootstrap'; // Importa Dropdown da react-bootstrap
-import avatar from '../assets/Fox.png'; // Importa l'immagine dell'avatar
+import './Account.css'; 
+import { Dropdown } from 'react-bootstrap'; 
+import avatar from '../assets/Fox.png'; 
 
 function Account() {
   return (
     <div className="account-page">
-      <nav className="navbar navbar-expand-lg" style={{ backgroundColor: '#212121' }}> {/* Imposta il colore di sfondo */}
+      <nav className="navbar navbar-expand-lg" style={{ backgroundColor: '#212121' }}> 
         <a className="navbar-brand" href="/index.html">
-          {/* Rimosso il logo Netflix */}
+        
         </a>
       </nav>
 
@@ -18,7 +18,7 @@ function Account() {
           <div className="divider"></div>
           <div className="row">
             <div className="col-md-3">
-              <img src={avatar} className="img-fluid" alt="Profile Image" /> {/* Usa l'immagine importata */}
+              <img src={avatar} className="img-fluid" alt="Profile Image" /> 
             </div>
             <div className="col-md-9">
               <div className="user-info">

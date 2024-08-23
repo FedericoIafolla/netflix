@@ -13,7 +13,7 @@
   .footer-icons svg {
     margin: 0 10px;
     vertical-align: middle;
-    width: 1.5em; /* Usa em per dimensionare in base alla dimensione del font */
+    width: 1.5em; 
     height: 1.5em;
   }
   
