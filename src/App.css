@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.carousel-control-prev, .carousel-control-next {
+  width: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5); /* Sfondo semi-trasparente per le frecce */
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.carousel-control-prev {
+  left: 0;
+}
+
+.carousel-control-next {
+  right: 0;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-size: 50%, 50%; /* Ridimensiona le icone delle frecce */
+}

@@ -1,0 +1,55 @@
+/* Navbar.css */
+
+.search-form {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .search-bar {
+    opacity: 0;
+    width: 0;
+    transition: width 0.5s ease, opacity 0.5s ease;
+    background: #ffffff; /* Imposta uno sfondo opaco per la barra di ricerca */
+    border: none;
+    border-radius: 20px;
+  }
+  
+  .search-bar.visible {
+    opacity: 1;
+    width: 200px; /* Imposta la larghezza desiderata per la barra di ricerca quando è visibile */
+  }
+  
+  .search-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0 15px; /* Spazio intorno all'icona */
+    outline: none;
+    font-size: 1.5rem; /* Dimensione dell'icona */
+    transition: transform 0.3s ease;
+  }
+  
+  .search-button:hover {
+    transform: scale(1.15); /* Ingrandisce leggermente l'icona al passaggio del mouse */
+  }
+  
+  .avatar-link {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Spazio tra la barra di ricerca e l'avatar */
+  }
+  
+  .avatar-image {
+    width: 30px; /* Larghezza dell'avatar */
+    height: 30px; /* Altezza dell'avatar */
+    border-radius: 50%; /* Forma rotonda */
+    border: 2px solid white; /* Bordo bianco per l'avatar */
+  }
+  
+  /* Aggiungi questa regola per il testo in grassetto del link "Home" */
+  .nav-link-home {
+    font-weight: bold;
+  }
+  
