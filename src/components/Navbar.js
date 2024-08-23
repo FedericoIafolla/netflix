@@ -37,6 +37,7 @@ function CustomNavbar() {
             className={`search-bar ${searchVisible ? 'visible' : ''}`}
           />
           <button
+            type="button"
             onClick={() => setSearchVisible(!searchVisible)}
             className="search-button"
           >
