@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { Navbar, Nav, Form, FormControl } from 'react-bootstrap';
-import { Link } from 'react-router-dom'; // Importa Link da react-router-dom
+import { Link } from 'react-router-dom'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import logo from '../assets/logo.png'; // Importa l'immagine dalla cartella assets
-import avatar from '../assets/Fox.png'; // Importa l'immagine dell'avatar
-import './Navbar.css'; // Importa il file CSS per le animazioni
+import logo from '../assets/logo.png'; 
+import avatar from '../assets/Fox.png'; 
+import './Navbar.css'; 
 
 function CustomNavbar() {
   const [searchVisible, setSearchVisible] = useState(false);
@@ -14,7 +14,7 @@ function CustomNavbar() {
     <Navbar bg="#212121" expand="lg" style={{ marginLeft: '10px' }}>
       <Navbar.Brand as={Link} to="/">
         <img
-          src={logo} // Usa l'immagine importata
+          src={logo} 
           width="125"
           height="60"
           className="d-inline-block align-top"
@@ -44,7 +44,7 @@ function CustomNavbar() {
           </button>
           <Link to="/account" className="avatar-link ms-2">
             <img
-              src={avatar} // Usa l'immagine dell'avatar
+              src={avatar} 
               alt="Avatar"
               className="avatar-image"
             />
